@@ -1,0 +1,19 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+
+# SSH keys
+*.pem
+*.key
+*.pub
+.ssh/
+
+# Explicit SSH key names (no extensions)
+multicloud-key
+multicloud-key*
+
+# OS / editor
+.DS_Store
+.vscode/
